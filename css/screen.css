@@ -1,0 +1,168 @@
+ html{
+    font-family: Helvetica, sans-serif;
+    font: 1.3em sans-serif;
+    background-color: #F3F4F4;
+  }
+
+  form{
+    display: inline-grid;
+    text-align: center;
+    /* To see the outline of the form */
+    padding: 2%;
+    border-radius: 1.3em;
+    background-color:#EBEBEB;
+  }
+
+  div {
+    margin-bottom: 1.3em;
+  }
+
+  label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: block;
+    vertical-align: middle;
+  }
+
+  input {
+    /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+    font: 1.3em sans-serif;
+    /* To give the same size to all text fields */
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid #999;
+    width: 100%;
+      }
+
+  body{
+    text-align: center;
+  }
+
+  p{
+    font-size:.876em; 
+    margin-top: 0;
+  }
+
+  .top h1{
+    margin-bottom: 1%;
+  }
+
+  {
+    font-size: 1.3em;
+  }
+
+  footer{
+    font-size: .385em;
+    color:#DEDEDE;
+  }
+
+  footer:hover{
+    color: #848484; 
+  }
+
+  .top{
+    background-color: #dba230;
+    color:#eaeeFB;
+    }
+
+  .menu{
+    text-align: center;
+    width: auto;
+  }
+
+  .button {
+  color: #F3F4F4;;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+  }
+
+  .dob {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+  }
+
+  .button:hover{
+    background-color: #F3F4F4; 
+  }
+
+  .submit{ 
+    border: 2px solid #db9e1c;
+    width: 80%;
+    margin: auto;
+    background-color:#db9e1c; 
+  }
+
+  .submit:hover{
+    color:#4CAF50;
+  }
+  .reset:hover{
+    color: #f44336;
+    background-color:#EBEBEB;
+  }
+
+  .reset{
+    font:.867em;
+    border:1px solid #EBEBEB;
+    background-color:#EBEBEB;
+    color:#F3F4F4;
+    width: 5%;
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+
+
+
+  /**
+  * CSS for media devices.
+  */
+
+
+  @media screen and (max-width: 64em) {
+    html {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    form{
+      border: none;	
+      width: 90%;
+      font-size: 1.3em;
+      padding: 5%;
+      display: block;
+      background-color: #EBEBEB;
+      border-radius: 0;
+
+    }
+      input{
+      width:100%;
+      padding: 1%;
+    }
+
+    label{
+      text-align: center;
+    }
+
+    .button{
+      font-size: 1.3em;
+    }
+
+    .reset{
+      padding-left: 0;
+      padding-right: 2px;
+    }
+
+
+    button:hover{
+      text-decoration: none;
+    }
+
+  }
