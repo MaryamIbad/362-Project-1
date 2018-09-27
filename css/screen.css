@@ -10,7 +10,7 @@
     /* To see the outline of the form */
     padding: 2%;
     border-radius: 1.3em;
-    background-color:#EBEBEB;
+    background-color:#f2ecc1;
   }
 
   div {
@@ -90,7 +90,7 @@
   }
 
   .button:hover{
-    background-color: #F3F4F4; 
+    background-color: f7f3d4; 
   }
 
   .submit{ 
@@ -105,13 +105,13 @@
   }
   .reset:hover{
     color: #f44336;
-    background-color:#EBEBEB;
+    background-color:#f2ecc1;
   }
 
   .reset{
     font:.867em;
-    border:1px solid #EBEBEB;
-    background-color:#EBEBEB;
+    border:1px solid #f2ecc1;
+    background-color:#f2ecc1;
     color:#F3F4F4;
     width: 5%;
     padding-left: 0;
@@ -138,7 +138,7 @@
       font-size: 1.3em;
       padding: 5%;
       display: block;
-      background-color: #EBEBEB;
+      background-color: #f2ecc1;
       border-radius: 0;
 
     }
