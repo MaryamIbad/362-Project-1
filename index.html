@@ -7,13 +7,13 @@
   <link rel="icon" media="image/png" sizes="32x32" href="media/pumpkin.png">
   <link rel="stylesheet" media="screen" href="./css/screen.css" />
   <link rel="stylesheet" media="screen" href="./css/normalize.css" />
+  <script src="javascript/script.js"></script>
 </head>
 <body>
     <div class="top">
       <h1>Sign up sheet for Pumpkin Fest</h1>
        <img id = "logo" src = "media/pumpkin.png" alt = "image" />
     </div>
-    <form action="javascript:alert('Thank You for signing up, we look forward to seeing you at the fest!')" method="post" autocomplete="on">
       <p>Please Sign up below</p>
       <div class="menu">
         <div>
@@ -33,8 +33,8 @@
           <input id="dob" name="date_field" type="text" placeholder="MM/DD/YYYY">
         </div>
         <div class="button_group">
-          <button class="button reset" type="reset">x</button>
-          <button class="button submit" type="submit">Submit Your Form</button>      
+          <button class="button submit" type="submit" onclick="SubmitNotify()">Sign up</button> 
+          <button class="button reset" type="reset">x</button>   
         </div>
   </form>
   <footer> By signing up, you agree to our Privacy Policies</footer>
