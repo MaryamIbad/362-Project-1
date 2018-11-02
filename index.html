@@ -14,9 +14,10 @@
       <h1>Sign up sheet for Pumpkin Fest</h1>
       <img id="logo" src="media/pumpkin.png" alt="image" />
     </div>
-      <form name="SignUp" onsubmit="submit()" action="#null" method="get" autocomplete="on">
+    <div class="form">
+    <form  method="get" action="#null" name="SignUp" autocomplete="on" onsubmit="submission">
       <p>Please Sign up below</p>
-      <div class="menu">
+       <fieldset>
         <div>
           <label for="name">Your Name</label>
           <input id="name" name="first_name_field" type="text" placeholder="Your Full Name">
@@ -33,13 +34,14 @@
           <label for="dob">Date of Birth</label>
           <input id="dob" name="date_field" type="text" placeholder="MM/DD/YYYY">
         </div>
-        <div class="button_group">
-           <p><input type="submit" value="Sign up!"></p>
-          </form>
-         </div>
-       </div>
-   <footer> 
+        <div> 
+          <input type="submit" id = "submit"  value="Sign Up">
+        </div>
+         </fieldset>
+       </form>
+     </div>
+  <footer> 
     <p>By signing up, you agree to our Privacy Policies</p>
-   </footer>
- </body>
-</html>
+  </footer>
+  </body>
+  </html>
