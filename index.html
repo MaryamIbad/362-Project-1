@@ -15,7 +15,7 @@
       <img id="logo" src="media/pumpkin.png" alt="image" />
     </div>
     <div class="form">
-    <form  method="get" action="#null" name="SignUp" autocomplete="on" onsubmit="submission">
+    <form action="#null" method="post" autocomplete="on">
       <p>Please Sign up below</p>
        <fieldset>
         <div>
@@ -34,8 +34,8 @@
           <label for="dob">Date of Birth</label>
           <input id="dob" name="date_field" type="text" placeholder="MM/DD/YYYY">
         </div>
-        <div> 
-          <input type="submit" id = "submit"  value="Sign Up">
+        <div class="button_group">
+         <button class="button submit" type="submit" onclick="submission()">Sign Up</button> 
         </div>
          </fieldset>
        </form>
